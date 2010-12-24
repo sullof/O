@@ -110,11 +110,11 @@ operation is definitely clear.
 	 
 	})(this);
 	
-The method expand adds static method that we will use as something 
-like O.staticMethod(myvar)
+The method `expand` adds static method that we will use as something 
+like `O.staticMethod(myvar)`
 
-The method extend adds method to the objects of type O. That methods 
-will be used as something like O(myvar).staticMethod().end()
+The method `extend` adds method to the objects of type O. That methods 
+will be used as something like `O(myvar).staticMethod().end()`
 
 ## A plugin example.
 
@@ -181,7 +181,7 @@ It implements two static methods and two objects' methods. Due example of uses:
 	alert(O(s).toBase62().end()); 
 	// this returns the same value
 
-The method end return the value of the properties O of the object and delete it. 
+The method `end` return the value of the properties O of the object and delete it. 
 If we pass an object to the method, it adds to the passed object a properties log 
 that contains the log if exist of the specific object. If we don't run end the object 
 persists so that we can continue to work on it. For example, we can have something as
@@ -199,9 +199,60 @@ persists so that we can continue to work on it. For example, we can have somethi
 	alert(obj.end());
 	// end the object and returns the value of the internal O properties.
 	
+## Modules collected with `o.js`
+
+### o2.js
+A collection of small utilities.
+
+### oAes.js
+It is the AES/Rijndael algorithm for 128/192/256-bit keys by Chris Veness 
+[Movable Type Ltd](http://www.movable-type.co.uk/scripts/AES.html) adapted for O.
+
+### oBase62.js
+Look at over :)
+
+### oBase64.js
+It is based on UTF-8/Base64 data encode/decode by [Webtoolkit.info](http://www.webtoolkit.info/).
+
+### oGetBits.js
+It measures the strength in bits of a password. It is inspired by [Keepass](http://keepass.info/) similar procedure.
+
+### oJson.js
+It is the Crockford's json2.js adapted for O. Also, it has been adapted for use in Passpack, for example 
+it adds reversing of date objects during the parse of the JSON string.
+	
+### oRand.js
+it is a pseudo-random number generator used in Passpack to generates safe random numbers in Javascript.
+It is based on a great work of [Tom Wu](http://www-cs-students.stanford.edu/~tjw/jsbn/).	
+	
+###	oRc4.js
+It is a simple implementation of RC4 algorithm.
+
+### oSha1.js
+It is a simple implementation of SHA1 hash algorithm.
+
+### oSha256.js
+It is an implementation of the Secure Hash Algorithm, SHA-256, adapted from original
+code by [Angel Marin](http://anmar.eu.org/).
+
+### oSJ.js
+It is a simple method to split/join a secret key in two parts.
+
+### oSSS.js
+It is an implementation of Shamyr's Shared Secret, based on great work of the guys at [RLK UK](http://www.rlr-uk.com/). It has some
+technical limitations and works well with a maximum quorus of 8 shares. Don't overpass the limit.
+
+### oUtil.js
+It collected some utilities that I used in Passpack to random generate passwords and keys.
+
+### oXxtea.js
+It is the 'Block' Tiny Encryption Algorithm xxtea by [Chriss Veness](http://www.movable-type.co.uk/scripts/TEAblock.html) adapted for O.
+
+	
 ## Credits
 
-Francesco Sullo <sullof@sullof.com>
+O is (c) Francesco Sullo <sullof@sullof.com>
+The modules are (c) of respective authors.
 
 ## License 
 
