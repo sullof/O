@@ -49,7 +49,7 @@ operation is definitely clear.
 	 
 	    /*
 	     * O - a chained thought
-	     * version 1.2, 31 november 2009 - http://o.sullof.com
+	     * version 1.2, 30 november 2009 - http://o.sullof.com
 	     * Copyright (c) 2008+ Francesco Sullo
 	     * Licensed as Open Source under MIT License
 	     */
@@ -61,7 +61,7 @@ operation is definitely clear.
 	     
 	    O.info = {
 	            version: "1.2",
-	            release: "2009-11-31"
+	            release: "2009-11-30"
 	    };
 	 
 	    O._ = O.prototype = {
