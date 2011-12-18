@@ -169,7 +169,7 @@ base-62 integers (as url-shorteners do).
 	     
 	})(this);
 	
-It implements two static methods and two objects' methods. Due example of uses:
+It implements two static methods and two objects' methods. Two examples:
 
 
 	var n = 13425;
