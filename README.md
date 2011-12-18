@@ -17,7 +17,7 @@ Now I want to publish it for other developers that want to improve it or simply 
 
 ## Why use O
 
-Consider that you have to encrypt an object with AES and send it escaped to the server. 
+Assume that you have to encrypt an object with AES and send it escaped to the server. 
 Probably you have something as
 
 	var ret = 
@@ -40,7 +40,7 @@ This is not so easy to read. With O you can obtain the same result with
 	    .escape()
 	    .end();
 
-As you can see, it is more concise and the flux of the concatenation of the 
+As you can see, it is more concise and the flow of the concatenation of the 
 operation is definitely clear.
 
 ## The core definition
