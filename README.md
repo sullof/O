@@ -49,7 +49,7 @@ operation is definitely clear.
 	 
 	    /*
 	     * O - a chained thought
-	     * version 1.2, 30 november 2009 - http://o.sullof.com
+	     * version 1.2, 30 november 2009
 	     * Copyright (c) 2008+ Francesco Sullo
 	     * Licensed as Open Source under MIT License
 	     */
@@ -251,14 +251,14 @@ It is the 'Block' Tiny Encryption Algorithm xxtea by [Chriss Veness](http://www.
 	
 ## Credits
 
-O is (c) Francesco Sullo <sullof@sullof.com>
+O is (c) Francesco Sullo <sullof@gmail.com>
 The modules are (c) of respective authors.
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2010 Francesco Sullo <sullof@sullof.com>
+Copyright (c) 2010 Francesco Sullo <sullof@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
